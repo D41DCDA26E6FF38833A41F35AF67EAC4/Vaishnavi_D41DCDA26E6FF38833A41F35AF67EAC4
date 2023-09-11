@@ -1,0 +1,11 @@
+#function to find factorial using recursion 
+def fact(n):
+  if n==1:
+   return n
+  else:
+    return n*fact(n-1) 
+    
+#taking input from the user 
+num=int(input("Enter the number :"))
+#function call and printing result 
+print("The factorial of",num,"is",fact(num))
